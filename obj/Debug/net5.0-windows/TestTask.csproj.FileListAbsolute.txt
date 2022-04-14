@@ -1,0 +1,68 @@
+C:\Users\User1\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.exe
+C:\Users\User1\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.deps.json
+C:\Users\User1\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.runtimeconfig.json
+C:\Users\User1\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.runtimeconfig.dev.json
+C:\Users\User1\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.dll
+C:\Users\User1\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.pdb
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.AssemblyReference.cache
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.Form1.resources
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.GenerateResource.cache
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.AssemblyInfo.cs
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.dll
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\ref\TestTask.dll
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.pdb
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.genruntimeconfig.cache
+C:\Users\User\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.exe
+C:\Users\User\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.deps.json
+C:\Users\User\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.runtimeconfig.json
+C:\Users\User\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.runtimeconfig.dev.json
+C:\Users\User\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.dll
+C:\Users\User\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\ref\TestTask.dll
+C:\Users\User\Desktop\Тестовое задание\TestTask\bin\Debug\net5.0-windows\TestTask.pdb
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.Form1.resources
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.AssemblyInfo.cs
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.dll
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\ref\TestTask.dll
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.pdb
+C:\Users\User\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.genruntimeconfig.cache
+C:\Users\User\Desktop\TestTask\bin\Debug\net5.0-windows\TestTask.exe
+C:\Users\User\Desktop\TestTask\bin\Debug\net5.0-windows\TestTask.deps.json
+C:\Users\User\Desktop\TestTask\bin\Debug\net5.0-windows\TestTask.runtimeconfig.json
+C:\Users\User\Desktop\TestTask\bin\Debug\net5.0-windows\TestTask.runtimeconfig.dev.json
+C:\Users\User\Desktop\TestTask\bin\Debug\net5.0-windows\TestTask.dll
+C:\Users\User\Desktop\TestTask\bin\Debug\net5.0-windows\ref\TestTask.dll
+C:\Users\User\Desktop\TestTask\bin\Debug\net5.0-windows\TestTask.pdb
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.csprojAssemblyReference.cache
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.Form1.resources
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.GenerateResource.cache
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.AssemblyInfo.cs
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.dll
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\ref\TestTask.dll
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.pdb
+C:\Users\User\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.genruntimeconfig.cache
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.AssemblyReference.cache
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.Form1.resources
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.GenerateResource.cache
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.AssemblyInfo.cs
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.dll
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\ref\TestTask.dll
+C:\Users\User1\Desktop\TestTask\obj\Debug\net5.0-windows\TestTask.pdb
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.Form2.resources
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.Properties.Resources.resources
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\refint\TestTask.dll
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\User1\Desktop\Тестовое задание\TestTask\obj\Debug\net5.0-windows\TestTask.csproj.ResolveComReference.cache
