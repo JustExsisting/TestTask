@@ -80,10 +80,10 @@ namespace TestTask
             {
                 label2.Text+=sw.Elapsed.ToString();
             }
-            Program.list.Sort(delegate (General s1, General s2)
-                { 
-                    return s2.ResPerson.CompareTo(s1.ResPerson);
-                });
+            Program.list.Sort((s1, s2) =>
+            {
+                return s2.ResPerson.CompareTo(s1.ResPerson);
+            });
             Program.typeOfSort = "по алфавиту";
             UnitList();
         }
@@ -252,7 +252,6 @@ namespace TestTask
             try
             {            
                 doc.Save();
-                app.Documents.Open(@"C:\Users\User1\Desktop\Doc1.rtf");
                 doc.Close();
                 app.Quit();
             }

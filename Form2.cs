@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace TestTask
@@ -12,20 +13,15 @@ namespace TestTask
 
         private void SortByName_Click(object sender, EventArgs e)
         {
-            Program.list.Sort(delegate (General s1, General s2)
-            {
-                return s2.ResPerson.CompareTo(s1.ResPerson);
-            });
+            Program.list = Program.list.OrderByDescending(s => s.ResPerson).ToList();
             Program.typeOfSort = "по алфавиту";
             Close();
         }
 
         private void SortByRKK_Click(object sender, EventArgs e)
         {
-            Program.list.Sort(delegate (General s1, General s2)
-            {
-                return s2.RKKs.CompareTo(s1.RKKs);
-            });
+            Program.list = Program.list.OrderByDescending(s => s.RKKs).ThenByDescending(s => s.Appeals).ToList();
+
             Program.typeOfSort = "по количество неисполненных письменных обращений граждан";
             Close();
 
@@ -33,20 +29,16 @@ namespace TestTask
 
         private void SortByAppeal_Click(object sender, EventArgs e)
         {
-            Program.list.Sort(delegate (General s1, General s2)
-            {
-                return s2.Appeals.CompareTo(s1.Appeals);
-            });
+            Program.list = Program.list.OrderByDescending(s => s.Appeals).ThenByDescending(s=>s.RKKs).ToList();
+
             Program.typeOfSort = "Количество неисполненных входящих документов";
             Close();
         }
 
         private void SortByTotal_Click(object sender, EventArgs e)
         {
-            Program.list.Sort(delegate (General s1, General s2)
-            {
-                return s2.Total.CompareTo(s1.Total);
-            });
+            Program.list = Program.list.OrderByDescending(s => s.Total).ThenByDescending(s=>s.RKKs).ToList();
+
             Program.typeOfSort = "по общему количеству документов";
             Close();
         }
