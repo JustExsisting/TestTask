@@ -52,7 +52,6 @@ namespace TestTask
                 }
                 if (splitByTab[0] == "Климов Сергей Александрович")
                 {
-                    
                     if (type)
                         Program.list.Add(new General(splitByTab[0], splitBySemicolon[0], cnt, 0));
                     else
