@@ -21,7 +21,7 @@ namespace TestTask
         private void SortByRKK_Click(object sender, EventArgs e)
         {
             Program.list = Program.list.OrderByDescending(s => s.RKKs).ThenByDescending(s => s.Appeals).ToList();
-            Program.typeOfSort = "по количество неисполненных письменных обращений граждан";
+            Program.typeOfSort = "Количество неисполненных входящих документов";
             Close();
 
         }
@@ -29,7 +29,7 @@ namespace TestTask
         private void SortByAppeal_Click(object sender, EventArgs e)
         {
             Program.list = Program.list.OrderByDescending(s => s.Appeals).ThenByDescending(s=>s.RKKs).ToList();
-            Program.typeOfSort = "Количество неисполненных входящих документов";
+            Program.typeOfSort = "по количество неисполненных письменных обращений граждан";
             Close();
         }
 

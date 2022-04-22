@@ -104,14 +104,6 @@ namespace TestTask
 
             }
         }
-        static public void ReadList()
-        {
-            for (int i = 0; i < Program.list.Count - 1; i++)
-            {
-                General temp = new General (Program.list[i].Name, Program.list[i].ResPerson, Program.list[i].Appeals, Program.list[i].RKKs);
-                Program.list[i] = temp;
-            }
-        }
         static int selectFileButtonClickCount = 0;
         public void Select_File_button_Click(object sender, EventArgs e)
         {
@@ -139,10 +131,28 @@ namespace TestTask
         private void ListBoxUpdate()
         {
             listBox1.Items.Clear();
-            listBox1.Items.Add("№\t\tОтветственный исполнитель\t\tКол-во неисполненных вход. док-ов\t\tКол-во неисполненных письменных обращ. граждан\t\tОбщее кол-во док-ов и обращ.");
+            listBox1.Items.Add("№\tОтв. исп.\t\tКол-во неисп. вход. док-ов\tКол-во неисп. письм. обращ.\tОбщее кол-во док-ов и обращ.");
             for (int i = 0; i < Program.list.Count; i++)
             {
-                listBox1.Items.Add($"{i+1}\t\t{Program.list[i]}");
+                listBox1.Items.Add($"{i+1}\t{Program.list[i]}");
+            }
+            if (Program.typeOfSort == "по количество неисполненных письменных обращений граждан")
+            {
+                label3.Text = $"Сортировка: по обращениям";
+            }
+            else if (Program.typeOfSort == "Количество неисполненных входящих документов")
+            {
+                label3.Text = $"Сортировка: по РКК";
+
+            }
+            else if (Program.typeOfSort == "по общему количеству документов")
+            {
+                label3.Text = $"Сортировка: по всем док-ам";
+
+            }
+            else
+            {
+                label3.Text = $"Сортировка: {Program.typeOfSort}";
             }
         }
         private void button1_Click(object sender, EventArgs e)

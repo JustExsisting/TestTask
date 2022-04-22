@@ -35,11 +35,12 @@ namespace TestTask
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Select_File_button
             // 
-            this.Select_File_button.Location = new System.Drawing.Point(12, 436);
+            this.Select_File_button.Location = new System.Drawing.Point(12, 555);
             this.Select_File_button.Name = "Select_File_button";
             this.Select_File_button.Size = new System.Drawing.Size(144, 51);
             this.Select_File_button.TabIndex = 0;
@@ -50,7 +51,7 @@ namespace TestTask
             // Form_report_button
             // 
             this.Form_report_button.AutoSize = true;
-            this.Form_report_button.Location = new System.Drawing.Point(1628, 436);
+            this.Form_report_button.Location = new System.Drawing.Point(561, 555);
             this.Form_report_button.Name = "Form_report_button";
             this.Form_report_button.Size = new System.Drawing.Size(141, 51);
             this.Form_report_button.TabIndex = 1;
@@ -64,12 +65,12 @@ namespace TestTask
             this.listBox1.ItemHeight = 15;
             this.listBox1.Location = new System.Drawing.Point(3, 3);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1757, 409);
+            this.listBox1.Size = new System.Drawing.Size(708, 544);
             this.listBox1.TabIndex = 3;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(776, 436);
+            this.button1.Location = new System.Drawing.Point(411, 555);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 51);
             this.button1.TabIndex = 4;
@@ -80,7 +81,7 @@ namespace TestTask
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(201, 437);
+            this.label1.Location = new System.Drawing.Point(162, 558);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(138, 15);
             this.label1.TabIndex = 5;
@@ -89,17 +90,27 @@ namespace TestTask
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(201, 454);
+            this.label2.Location = new System.Drawing.Point(163, 573);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(137, 15);
             this.label2.TabIndex = 6;
             this.label2.Text = "Чтение второго файла: ";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(163, 588);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 15);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Сортировка:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1781, 499);
+            this.ClientSize = new System.Drawing.Size(714, 618);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
@@ -122,6 +133,7 @@ namespace TestTask
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

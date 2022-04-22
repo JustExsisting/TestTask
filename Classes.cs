@@ -26,7 +26,14 @@ namespace TestTask
 
         public override string ToString()
         {
-            return $"{ResPerson}\t\t\t\t\t{RKKs}\t\t\t\t\t{Appeals}\t\t\t\t\t\t{Total}";
+            if (ResPerson == "Баль Н.Г.")
+            {
+                return $"{ResPerson}\t\t\t{RKKs}\t\t\t{Appeals}\t\t\t{Total}";
+            }
+            else
+            {
+                return $"{ResPerson}\t\t{RKKs}\t\t\t{Appeals}\t\t\t{Total}";
+            }
         }
     }
 }
