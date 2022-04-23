@@ -15,17 +15,16 @@ namespace TestTask
             MessageBox.Show("Для начала работы необходимо:\n1)Выбрать Обращения\n2)Выбрать РКК");
             InitializeComponent();
         }
+
         public void ReadFile(bool type, string fileText)
         {
             var sw = new Stopwatch();
-            int cnt;
             sw.Start();
             string[] splitByEnter = fileText.Split('\n');
             for (int i = 0; i < splitByEnter.Length - 1; i++)
             {
                 string[] splitByTab = splitByEnter[i].Split('\t');      //разделение строки на лево и право по тобуляции
                 string[] splitBySemicolon = splitByTab[1].Split(';');   //разделение правой части строки по точкам с зяпятой, для поиска всех, кто находится в правой части
-                cnt = splitBySemicolon.Count();                         //подсчёт количество людей справа
                 for (int j = 0; j < splitBySemicolon.Count(); j++)
                 {
                     int spaceCNT = 0;
@@ -53,20 +52,25 @@ namespace TestTask
                 if (splitByTab[0] == "Климов Сергей Александрович")
                 {
                     if (type)
-                        Program.list.Add(new General(splitByTab[0], splitBySemicolon[0], cnt, 0));
+                    {
+                        Program.list.Add(new General(splitBySemicolon[0], 1, 0));
+                    }
                     else
-                        Program.list.Add(new General(splitByTab[0], splitBySemicolon[0], Program.list[i].Appeals, cnt));
+                    {
+                        Program.list.Add(new General(splitBySemicolon[0], 0, 1));
+                    }
                 }
                 else
                 {
                     string[] splitBySpace = splitByTab[0].Split(' ');
+                    string ResPerson = $"{splitBySpace[0]} {splitBySpace[1][0]}.{splitBySpace[2][0]}.";
                     if (type)
                     {
-                        Program.list.Add(new General(splitByTab[0], $"{splitBySpace[0]} {splitBySpace[1][0]}.{splitBySpace[2][0]}.", cnt, 0));
+                        Program.list.Add(new General(ResPerson, 1, 0));
                     }
                     else
                     {
-                        Program.list.Add(new General(splitByTab[0], $"{splitBySpace[0]} {splitBySpace[1][0]}.{splitBySpace[2][0]}.", 0, cnt));
+                        Program.list.Add(new General (ResPerson, 0, 1));
                     }
                 }
             }
@@ -86,6 +90,7 @@ namespace TestTask
             Program.typeOfSort = "по алфавиту";
             UnitList();
         }
+
         static public void UnitList()
         {
             for (int i = 0; i < Program.list.Count; i++)
@@ -101,9 +106,9 @@ namespace TestTask
                     }
                     else break;
                 }
-
             }
         }
+
         static int selectFileButtonClickCount = 0;
         public void Select_File_button_Click(object sender, EventArgs e)
         {
@@ -128,6 +133,7 @@ namespace TestTask
             }
             ListBoxUpdate();
         }
+
         private void ListBoxUpdate()
         {
             listBox1.Items.Clear();
@@ -143,18 +149,17 @@ namespace TestTask
             else if (Program.typeOfSort == "Количество неисполненных входящих документов")
             {
                 label3.Text = $"Сортировка: по РКК";
-
             }
             else if (Program.typeOfSort == "по общему количеству документов")
             {
                 label3.Text = $"Сортировка: по всем док-ам";
-
             }
             else
             {
                 label3.Text = $"Сортировка: {Program.typeOfSort}";
             }
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
@@ -168,7 +173,7 @@ namespace TestTask
             int totals = 0;
             int appeals = 0;
             int rkks = 0;
-            for (int i = 0; i < Program.list.Count - 1; i++)
+            for (int i = 0; i < Program.list.Count; i++)
             {
                 totals += Program.list[i].Total;
                 appeals += Program.list[i].Appeals;
@@ -270,4 +275,4 @@ namespace TestTask
             }
         }
     }
-} 
+}

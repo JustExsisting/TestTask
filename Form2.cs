@@ -23,7 +23,6 @@ namespace TestTask
             Program.list = Program.list.OrderByDescending(s => s.RKKs).ThenByDescending(s => s.Appeals).ToList();
             Program.typeOfSort = "Количество неисполненных входящих документов";
             Close();
-
         }
 
         private void SortByAppeal_Click(object sender, EventArgs e)

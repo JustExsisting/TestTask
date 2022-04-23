@@ -9,15 +9,13 @@ namespace TestTask
 {
     public class General
     {
-        public string Name;
         public string ResPerson;
         public int Appeals;
         public int RKKs;
         public int Total;
 
-        public General(string name, string resPerson, int appeals, int rkks)
+        public General(string resPerson, int appeals, int rkks)
         {
-            Name = name;
             ResPerson = resPerson;
             Appeals = appeals;
             RKKs = rkks;
